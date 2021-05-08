@@ -58,4 +58,4 @@ def index():
     return MJPEGHttpFrames(boundary)
 
 cam = Camera()
-run(host='0.0.0.0', port=8080, quiet=True)
+run(host='0.0.0.0', port=8080, server='paste', quiet=True)
